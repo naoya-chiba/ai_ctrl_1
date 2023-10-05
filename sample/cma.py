@@ -485,7 +485,7 @@ class _BlancClass(object):
 # _____________________________________________________________________
 # _____________________________________________________________________
 #
-class DerivedDictBase(collections.MutableMapping):
+class DerivedDictBase(collections.abc.MutableMapping):
     """for conveniently adding "features" to a dictionary. The actual
     dictionary is in ``self.data``. Copy-paste
     and modify setitem, getitem, and delitem, if necessary"""
